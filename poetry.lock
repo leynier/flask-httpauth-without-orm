@@ -109,9 +109,9 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
-name = "flask-login"
-version = "0.5.0"
-description = "User session management for Flask"
+name = "flask-httpauth"
+version = "4.4.0"
+description = "Basic and Digest HTTP authentication for Flask routes"
 category = "main"
 optional = false
 python-versions = "*"
@@ -324,7 +324,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d9c1f6361a83d22db0ef0e37587a30ce10552b21b6022d0bc47b9a77ee4b7bc8"
+content-hash = "9a740cb226071547d6dfa816dac486cd1ae6facb98153171397ba67d87ee1b47"
 
 [metadata.files]
 appdirs = [
@@ -413,9 +413,9 @@ flask = [
     {file = "Flask-2.0.1-py3-none-any.whl", hash = "sha256:a6209ca15eb63fc9385f38e452704113d679511d9574d09b2cf9183ae7d20dc9"},
     {file = "Flask-2.0.1.tar.gz", hash = "sha256:1c4c257b1892aec1398784c63791cbaa43062f1f7aeb555c4da961b20ee68f55"},
 ]
-flask-login = [
-    {file = "Flask-Login-0.5.0.tar.gz", hash = "sha256:6d33aef15b5bcead780acc339464aae8a6e28f13c90d8b1cf9de8b549d1c0b4b"},
-    {file = "Flask_Login-0.5.0-py2.py3-none-any.whl", hash = "sha256:7451b5001e17837ba58945aead261ba425fdf7b4f0448777e597ddab39f4fba0"},
+flask-httpauth = [
+    {file = "Flask-HTTPAuth-4.4.0.tar.gz", hash = "sha256:bcaaa7a35a3cba0b2eafd4f113b3016bf70eb78087456d96484c3c18928b813a"},
+    {file = "Flask_HTTPAuth-4.4.0-py2.py3-none-any.whl", hash = "sha256:d9131122cdc5709dda63790f6e9b3142d8101447d424b0b95ffd4ee279f49539"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
