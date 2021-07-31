@@ -61,7 +61,7 @@ def index():
         username = current_user.username  # type: ignore
     return f"""
         <h1>Hi {username}</h1>
-        <h3>Welcome to Flask Login without ORM!</h3>
+        <h3>Welcome to Flask HTTPAuth without ORM!</h3>
     """
 
 

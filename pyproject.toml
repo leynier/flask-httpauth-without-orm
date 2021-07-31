@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "flask-login-without-orm"
+name = "flask-httpauth-without-orm"
 version = "0.1.0"
-description = "Example of how to use Flask Login without ORM."
+description = "Example of how to use Flask HTTPAuth without ORM."
 authors = ["leynier <leynier41@gmail.com>"]
-homepage = "https://github.com/leynier/flask-login-without-orm"
-repository = "https://github.com/leynier/flask-login-without-orm"
-documentation = "https://github.com/leynier/flask-login-without-orm"
+homepage = "https://github.com/leynier/flask-httpauth-without-orm"
+repository = "https://github.com/leynier/flask-httpauth-without-orm"
+documentation = "https://github.com/leynier/flask-httpauth-without-orm"
 readme = "README.md"
 license = "MIT"
 

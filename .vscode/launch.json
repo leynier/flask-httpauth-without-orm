@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "flask_login_without_orm\\main.py",
+                "FLASK_APP": "flask_httpauth_without_orm\\main.py",
                 "FLASK_ENV": "development"
             },
             "args": [

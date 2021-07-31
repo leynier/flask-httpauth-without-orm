@@ -14,7 +14,7 @@ export:
 	poetry export -f requirements.txt -o requirements.txt --without-hashes
 
 run: install
-	@export FLASK_APP=flask_login_without_orm/main.py &&\
+	@export FLASK_APP=flask_httpauth_without_orm/main.py &&\
 	export FLASK_ENV=development &&\
 	export FLASK_DEBUG=1 &&\
 	flask run --host=${HOST} --port=${PORT}

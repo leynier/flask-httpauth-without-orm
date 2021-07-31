@@ -1,4 +1,4 @@
-from flask_login_without_orm import __version__
+from flask_httpauth_without_orm import __version__
 
 
 def test_version():
