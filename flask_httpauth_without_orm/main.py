@@ -1,12 +1,10 @@
 from json import load
-from os import getenv
 from typing import Dict, Optional
 
 from flask import Flask
 from flask_httpauth import HTTPBasicAuth
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = getenv("SECRET_KEY", default="secret_key_example")
 
 auth = HTTPBasicAuth()
 
@@ -43,7 +41,7 @@ with open("users.json") as file:
 
 
 @auth.verify_password
-def verify_password(username, password):
+def verify_password(username: str, password: str):
     user = User.get(username)
     if user and user.password == password:
         return username
